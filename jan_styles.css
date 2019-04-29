@@ -1,0 +1,109 @@
+body {
+  font-family: Helvetica;
+  padding: 20px;
+  background: lightblue;
+  color: white;
+}
+
+p {
+	width:100%;
+ 
+}
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  background: lightblue;
+}
+
+
+.column2 { 
+  float: left;
+  width: 100%;
+}
+
+
+.column1 {
+  float: left;
+  width: 100%;
+  padding-left: 20px;
+  
+}
+
+
+.picture
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+
+.card {
+  background-color: lightblue;
+  width:75%;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.footer {
+  padding: 10px;
+  text-align: left;
+  background: lightblue;
+  margin-top: 20px;
+}
+
+form {
+  border: 4px solid #f1f1f1;
+}
+  
+input[type=text], input[type=submit] {
+  width: 75%;
+  padding: 12px;
+  margin: 2px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+  
+
+.info {
+	font-size:10px;
+  text-align: right;
+}
+  
+form {
+	text-align:left;
+}
+  
+
+@media screen and (max-width: 800px) {
+  .column2, .column1 { 
+    width: 100%;
+    padding: 0;
+  }
+}
+  
